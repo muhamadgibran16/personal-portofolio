@@ -128,6 +128,13 @@ export function AnimatedBackground() {
 			if (!ctx || !canvas) return;
 			ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+			// Random autonomous sparks
+			if (Math.random() > 0.95) {
+				const x = Math.random() * canvas.width;
+				const y = Math.random() * canvas.height;
+				sparks.push(new Spark(x, y));
+			}
+
 			// Mouse connection line (Repulsor/Attractor)
 
 			particles.forEach((p, i) => {
@@ -144,7 +151,7 @@ export function AnimatedBackground() {
 					if (distance < 100) {
 						ctx.beginPath();
 						// Random "zap" effect for connections
-						const isZap = Math.random() > 0.999;
+						const isZap = Math.random() > 0.95; // Increased zap frequency
 						const opacity = isZap ? 0.8 : 0.15 - distance / 1000;
 						const lineWidth = isZap ? 2 : 1;
 

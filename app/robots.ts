@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
 			allow: "/",
 			disallow: "/private/",
 		},
-		sitemap: "https://gibran-portfolio.vercel.app/sitemap.xml", // Replace with actual domain
+		sitemap: "https://muhamadgibran.vercel.app/sitemap.xml", // Replace with actual domain
 	};
 }

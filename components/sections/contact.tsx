@@ -40,7 +40,7 @@ export function Contact() {
 
 					<a
 						href="mailto:braanngibran@gmail.com"
-						className="px-8 py-4 bg-teal-500 text-slate-900 font-bold rounded-lg hover:bg-teal-400 transition-colors inline-block">
+						className="px-8 py-4 bg-gradient-to-r from-teal-500 to-blue-600 text-white font-bold rounded-lg hover:bg-teal-400 hover:text-slate-900 transition-colors inline-block">
 						Say Hello
 					</a>
 				</motion.div>

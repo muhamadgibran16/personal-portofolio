@@ -23,7 +23,7 @@ export default function Page() {
 						<Hero />
 						<Skills />
 						<Experience />
-						<Projects />
+						{/*<Projects />*/}
 						<Contact />
 					</div>
 				</>

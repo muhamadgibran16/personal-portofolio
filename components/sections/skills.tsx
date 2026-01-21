@@ -15,22 +15,22 @@ export function Skills() {
 		{
 			category: "Backend",
 			icon: <Server className="w-8 h-8 text-teal-400" />,
-			items: ["Node.js", "Go", "Python", "Microservices", "gRPC", "REST APIs"],
+			items: ["Node.js", "Python", "Microservices", "REST APIs"],
 		},
 		{
 			category: "Databases",
 			icon: <Database className="w-8 h-8 text-blue-400" />,
-			items: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "Prisma"],
+			items: ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
 		},
 		{
 			category: "DevOps",
 			icon: <Cloud className="w-8 h-8 text-purple-400" />,
-			items: ["Docker", "Kubernetes", "AWS", "Terraform", "CI/CD"],
+			items: ["Docker", "GCP", "Jenkins", "CI/CD"],
 		},
 		{
 			category: "Tools & Others",
 			icon: <Terminal className="w-8 h-8 text-yellow-400" />,
-			items: ["Linux", "Git", "Grafana", "Prometheus", "Bash Scripting"],
+			items: ["Linux", "Git", "Bash Scripting", "Nginx"],
 		},
 	];
 
@@ -43,7 +43,7 @@ export function Skills() {
 					viewport={{ once: true }}
 					className="text-center mb-16">
 					<h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-						Technical Arsenal
+						Technical Tech Stack
 					</h2>
 					<p className="text-slate-400 text-lg">
 						Tools and technologies I use to build robust solutions.

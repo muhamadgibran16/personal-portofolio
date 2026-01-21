@@ -5,39 +5,40 @@ import { motion } from "framer-motion";
 export function Experience() {
 	const experiences = [
 		{
-			company: "Widya Robotics",
-			role: "Junior DevOps Engineer",
+			company: "Hudoro Solusi Digital",
+			role: "DevOps Engineer",
 			period: "July 2025 - Present",
 			description:
-				"Managed Google Cloud infrastructure. Set up CI/CD pipelines with Jenkins and GitHub Actions. Monitored system health with Prometheus and Grafana.",
+				"Managed Google Cloud infrastructure. Set up CI/CD pipelines with Jenkins and GitHub Actions.",
 		},
 		{
 			company: "Hudoro Solusi Digital",
 			role: "Backend Engineer",
 			period: "July 2024 - Present",
 			description:
-				"Leading the migration of legacy monolith to microservices. Optimized database queries reducing latency by 40%. Implemented automated testing strategy.",
+				"Building REST APIs, implement microservices architecture and optimized database queries reducing latency.",
 		},
 		{
 			company: "Widya Robotics",
 			role: "Backend Engineer Intern",
 			period: "August 2023 - June 2024",
-			description:
-				"Leading the migration of legacy monolith to microservices. Optimized database queries reducing latency by 40%. Implemented automated testing strategy.",
+			description: [
+				"Research and developed backend features for internal company applications. Learned software development best practices and clean code architecture. Contributed to code reviews and technical documentation.",
+			],
 		},
 		{
 			company: "Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka",
 			role: "Cloud Computing Student",
 			period: "February 2023 - June 2023",
 			description:
-				"Specialized in Distributed Systems and Cloud Computing. Capstone project focused on container orchestration.",
+				"Specialized in Distributed Systems and Cloud Computing. Hands-on experience with GCP services. Completed Cloud Computing specialization. Team collaboration in capstone project.",
 		},
 		{
 			company: "University of Bina Sarana Informatics",
 			role: "Information System Student",
 			period: "August 2021 - November 2024",
 			description:
-				"Specialized in Distributed Systems and Cloud Computing. Capstone project focused on container orchestration.",
+				"Focused on Software Engineering, Database Management, and Network Infrastructure. Graduated with a strong foundation in backend development concepts.",
 		},
 	];
 

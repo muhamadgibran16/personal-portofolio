@@ -114,6 +114,9 @@
 	--sidebar-accent-foreground: oklch(0.3 0.05 230);
 	--sidebar-border: oklch(1 0 0 / 10%);
 	--sidebar-ring: oklch(0.551 0.027 264.364);
+	/* Custom Variables from User Request */
+	--primary-custom: #3b82f6; /* Blue */
+	--secondary-custom: #8b5cf6; /* Purple */
 }
 
 @layer base {
@@ -126,4 +129,27 @@
 	body {
 		@apply bg-background text-foreground;
 	}
+}
+
+/* Button styles */
+.btn-gradient {
+	background: linear-gradient(
+		135deg,
+		var(--primary-custom),
+		var(--secondary-custom)
+	);
+	color: white;
+	padding: 12px 28px;
+	border-radius: 9999px;
+	font-weight: 600;
+	transition: all 0.3s ease;
+	border: none;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+}
+.btn-gradient:hover {
+	filter: brightness(110%);
+	transform: scale(1.05);
 }

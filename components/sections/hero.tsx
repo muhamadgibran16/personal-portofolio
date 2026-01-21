@@ -58,8 +58,10 @@ export function Hero() {
 					animate={{ opacity: 1 }}
 					transition={{ delay: 0.2, duration: 0.5 }}
 					className="text-slate-400 text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-					Building scalable, resilient systems and automating infrastructure
-					with precision.
+					Building scalable systems and robust cloud infrastructure.
+					Passionate about clean code, automation, and continuous improvement.
+					{/*Building scalable, resilient systems and automating infrastructure
+					with precision.*/}
 				</motion.p>
 
 				<motion.div
@@ -69,7 +71,7 @@ export function Hero() {
 					className="flex flex-col sm:flex-row gap-4 justify-center">
 					<a
 						href="#projects"
-						className="px-8 py-3 bg-teal-500 text-slate-900 font-bold rounded-lg hover:bg-teal-400 transition-colors flex items-center justify-center gap-2">
+						className="px-8 py-3 bg-gradient-to-r from-teal-500 to-blue-600 text-white font-bold rounded-lg hover:bg-teal-400 hover:text-slate-900 transition-colors flex items-center justify-center gap-2">
 						View Projects
 						<ArrowRight className="w-5 h-5" />
 					</a>

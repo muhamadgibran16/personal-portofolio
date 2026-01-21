@@ -15,8 +15,8 @@ export function Projects() {
 		{
 			title: "Cloud Infrastructure Automation",
 			description:
-				"Terraform modules for provisioning a complete AWS environment with EKS, RDS, and VPC peering. Automated CI/CD pipelines with GitHub Actions.",
-			tags: ["Terraform", "AWS", "Kubernetes", "CI/CD"],
+				"Managed GCP infrastructure using App Engine, Cloud Run, and VM Instances with VPC configuration. Automated CI/CD pipelines with Jenkins.",
+			tags: ["GCP", "App Engine", "Cloud Run", "Jenkins", "CI/CD"],
 			links: { demo: "#", code: "#" },
 		},
 		{

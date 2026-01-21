@@ -26,17 +26,14 @@ export const metadata: Metadata = {
 		template: "%s | Muhamad Gibran",
 	},
 	description:
-		"Portfolio of Muhamad Gibran, a Backend Engineer specialized in building scalable systems and DevOps automation. Expertise in Go, Node.js, Kubernetes, and AWS.",
+		"Portfolio of Muhamad Gibran, a Backend Engineer specialized in building scalable systems and DevOps automation. Expertise in Node.js, GCP, and Docker Container Orchestration.",
 	keywords: [
 		"Backend Engineer",
 		"DevOps Engineer",
 		"Muhamad Gibran",
-		"Go",
-		"Node.js",
-		"Kubernetes",
-		"AWS",
-		"Terraform",
+		"Muhamad Gibran Al Mumbait",
 		"Portfolio",
+
 	],
 	authors: [
 		{ name: "Muhamad Gibran", url: "https://github.com/muhamadgibran16" },
@@ -57,7 +54,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://gibran-portfolio.vercel.app", // Placeholder URL, best practice to have one
+		url: "https://muhamadgibran.vercel.app", // Placeholder URL, best practice to have one
 		title: "Muhamad Gibran | Backend & DevOps Engineer",
 		description:
 			"Building scalable, resilient systems and automating infrastructure with precision.",

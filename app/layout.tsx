@@ -21,6 +21,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://muhamadgibran.vercel.app"),
 	title: {
 		default: "Muhamad Gibran | Backend & DevOps Engineer",
 		template: "%s | Muhamad Gibran",
@@ -30,16 +31,21 @@ export const metadata: Metadata = {
 	keywords: [
 		"Backend Engineer",
 		"DevOps Engineer",
+		"Gibran",
+		"Portfolio of Muhamad Gibran",
 		"Muhamad Gibran",
-		"Muhamad Gibran Al Mumbait",
-		"Portfolio",
-
+		"Software Engineer",
+		"System Architecture",
+		"Cloud Infrastructure",
 	],
 	authors: [
 		{ name: "Muhamad Gibran", url: "https://github.com/muhamadgibran16" },
 	],
 	creator: "Muhamad Gibran",
 	publisher: "Muhamad Gibran",
+	alternates: {
+		canonical: "/",
+	},
 	robots: {
 		index: true,
 		follow: true,
@@ -51,10 +57,13 @@ export const metadata: Metadata = {
 			"max-snippet": -1,
 		},
 	},
+	verification: {
+		google: "google-site-verification-code", // Replace with your actual code
+	},
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://muhamadgibran.vercel.app", // Placeholder URL, best practice to have one
+		url: "https://muhamadgibran.vercel.app",
 		title: "Muhamad Gibran | Backend & DevOps Engineer",
 		description:
 			"Building scalable, resilient systems and automating infrastructure with precision.",
@@ -65,7 +74,7 @@ export const metadata: Metadata = {
 		title: "Muhamad Gibran | Backend & DevOps Engineer",
 		description:
 			"Building scalable, resilient systems and automating infrastructure with precision.",
-		creator: "@muhamadgibran", // Placeholder
+		creator: "@muhamadgibran",
 	},
 	icons: {
 		icon: "/favicon.ico",

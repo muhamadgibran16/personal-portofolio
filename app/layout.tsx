@@ -58,7 +58,8 @@ export const metadata: Metadata = {
 		},
 	},
 	verification: {
-		google: "google-site-verification-code", // Replace with your actual code
+		google:
+			"google-site-verification=4kI-zMFvqyDV7aQTpZrcioJfxzolL7CZY9YMCul3phQ", // Replace with your actual code
 	},
 	openGraph: {
 		type: "website",
